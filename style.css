@@ -1,0 +1,168 @@
+body{
+        margin: auto;
+}
+
+header{ 
+        height: 46px;
+        display: flex;
+        align-items: center;
+        background-color: black;
+        position: relative;
+      }
+nav {
+        position: absolute;
+        left: 250px;
+}
+      
+header li{
+        display: inline;
+        padding-right: 28px;
+        font-size: 15px;
+}
+
+header li a{
+        text-decoration: none;
+        color:#ffffff;
+
+}
+.Login {
+                font-size: 15px;
+                position: absolute;
+                right: 150px;
+}
+.Login a{
+        text-decoration: none;
+        color: white;
+}
+
+main{
+        margin: 0;
+        text-align: center;
+        position: relative;
+}
+
+.section1{
+        background-color: #1687ED;
+        color: white;
+        position: relative;
+        height: 300px;      
+}
+.logoperso{
+        position: absolute;
+        left: 150;
+        top:20;
+}
+.divsec1 img{
+        padding-top: 50px;
+}
+.divsec1 p{
+        font-size: 25;
+}
+.divsec1 button {
+
+                background-color: #e69109;
+                border: 2px solid white;
+                border-radius: 10px;
+                padding: 20px;
+                color: white;
+                font-size: 20px;
+                margin: 20px;
+}
+.section2{
+        text-align: center;
+}
+
+.section3{
+        background-color: #1687ED;
+        color: #ffffff;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-content: center;
+        padding: 0px 150px;
+}
+.divsec3 {
+        padding: 15px 10px;
+        text-align: left;
+        font-size: 14px;
+}
+.divsec3 h2 {
+        font-size: 24px;
+      }
+.divsec3 p {
+        margin-top: 10px;
+        color: white;
+      }
+.section4{
+        text-align: center;
+        color: gray;
+}
+
+.section5{
+        background-color:#D8DADB ;
+        padding: 0px;
+        margin:auto;
+        list-style-type: none;
+        }
+        .section5 li{
+                display: inline-block;
+                width: 200px; 
+                height: 40px;
+                margin: auto;
+                padding: 0px;
+                text-align: center;
+                line-height: 40px;
+        }
+        .section5 img{
+                align-self: center;
+        }
+
+.section6 {
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+}
+        .section6 {
+        display: inline-block;
+        width: 200px; 
+        height: 40px;
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        line-height: 40px;
+        }
+
+footer{ 
+        height: 46px;
+        color: white;
+        background-color: black;
+        position: relative;
+}
+
+footer ul{
+        position: absolute;
+        
+}
+              
+footer li{
+        display: inline;
+        font-size: 15px;
+        padding-right: 20px;
+        border-right: 1px dotted white;
+}
+        
+footer li a{
+        text-decoration: none;
+        color:#ffffff;
+        
+}
+footer li:nth-child(5){
+        border-style: none;
+}
+footer p{
+        position: absolute;
+        top: auto;
+        right: 100px;
+        font-size: 15px;
+
+}

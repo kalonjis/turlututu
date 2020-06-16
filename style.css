@@ -1,63 +1,83 @@
+/*structure générale de la page*/
 body{
         margin: auto;
+        font-family: Arial, Helvetica, sans-serif;
 }
-
+/*structure générale du header- barre de menu*/
 header{ 
         height: 46px;
         display: flex;
         align-items: center;
         background-color: black;
         position: relative;
-      }
+}
+ 
+/*structure générale du menu*/      
 nav {
         position: absolute;
         left: 250px;
 }
-      
+
+/*structure des onglets du menu*/
 header li{
         display: inline;
         padding-right: 28px;
         font-size: 15px;
 }
 
+/*mise en forme des liens du menu*/
 header li a{
         text-decoration: none;
         color:#ffffff;
 
 }
+
+/*positionnement du Log In*/
 .Login {
                 font-size: 15px;
                 position: absolute;
                 right: 150px;
 }
+
+/*mise en forme du lien Log In*/
 .Login a{
         text-decoration: none;
         color: white;
 }
 
+/*structure générale du corps de la page - main*/
 main{
         margin: 0;
         text-align: center;
         position: relative;
 }
 
+/*structure générale de la section 1*/
 .section1{
         background-color: #1687ED;
         color: white;
         position: relative;
         height: 300px;      
 }
+
+/*positionnement du logo du personnage*/
 .logoperso{
         position: absolute;
-        left: 150;
-        top:20;
+        left: 200px;
+        top:20px;
 }
+
+/*positionnement du logo turlututu*/
 .divsec1 img{
         padding-top: 50px;
 }
+
+/*mise en forme du plug & play*/
 .divsec1 p{
-        font-size: 25;
+        font-size: 40;
 }
+
+/*structure du bouton "start building"*/
 .divsec1 button {
 
                 background-color: #e69109;
@@ -68,61 +88,56 @@ main{
                 font-size: 20px;
                 margin: 20px;
 }
+/*structure générale de la section 2 " for awesom..."*/
 .section2{
         text-align: center;
 }
 
+/*stucture générale de la section 3*/
 .section3{
         background-color: #1687ED;
         color: #ffffff;
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        flex-flow: row wrap;
+        padding: 0 150px;
         justify-content: center;
-        align-content: center;
-        padding: 0px 150px;
 }
+
+/*structure des textes*/
 .divsec3 {
         padding: 15px 10px;
         text-align: left;
         font-size: 14px;
+        width: 40%;
 }
+
+/*mise en forme des titres*/
 .divsec3 h2 {
         font-size: 24px;
-      }
+}
+
+/*mise en forme des paragraphes*/
 .divsec3 p {
         margin-top: 10px;
         color: white;
-      }
+}
+
+/*structure section 4 "Innovative..."*/
 .section4{
         text-align: center;
         color: gray;
 }
 
+/*structure générale de la section 5 "les logos des sociétés"*/
 .section5{
         background-color:#D8DADB ;
         padding: 0px;
         margin:auto;
         list-style-type: none;
-        }
-        .section5 li{
-                display: inline-block;
-                width: 200px; 
-                height: 40px;
-                margin: auto;
-                padding: 0px;
-                text-align: center;
-                line-height: 40px;
-        }
-        .section5 img{
-                align-self: center;
-        }
-
-.section6 {
-        padding: 0px;
-        margin: 0px;
-        list-style-type: none;
 }
-        .section6 {
+
+/*structure des logos en gris*/
+.section5 li{
         display: inline-block;
         width: 200px; 
         height: 40px;
@@ -130,8 +145,57 @@ main{
         padding: 0px;
         text-align: center;
         line-height: 40px;
-        }
+}
 
+/*logo "product hunt"*/
+.section5 img{
+                align-self: center;
+}
+/*structure générale de la 6eme section*/
+.section6 {
+        padding: 0px;
+        margin: 0px;
+        height: 200px;
+      
+}
+/*structure de la barre de boutons*/
+.section6 ul{
+        display: inline;
+        
+}
+/*structure des onglets*/
+.section6 li {
+        display: inline-block;
+        width: 20%;
+        background-color: rgb(39, 39, 167);
+        height: 40px;
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        line-height: 40px;
+        border: 2px solid white;
+        border-radius: 10px;
+}
+
+/*couleur du 3e onglet*/
+.section6 li:nth-child(3){
+        background-color: #e69109;
+}
+
+/*structure des liens*/
+.section6 li a{
+        background-color: rgb(39, 39, 167);
+        color: white;
+        text-decoration: none;
+}
+
+/*mise en couleur du "start building"*/
+.section6 li a:nth-child(3){
+        background-color: #e69109;
+}
+
+/*structure générale du pied de page- footer*/
 footer{ 
         height: 46px;
         color: white;
@@ -139,26 +203,33 @@ footer{
         position: relative;
 }
 
+/*structure de la barre de menu*/
 footer ul{
         position: absolute;
         
 }
-              
+
+/*structure des onglets*/            
 footer li{
         display: inline;
         font-size: 15px;
         padding-right: 20px;
         border-right: 1px dotted white;
 }
-        
+
+/*structure des liens*/
 footer li a{
         text-decoration: none;
         color:#ffffff;
         
 }
+
+/*suppression bordures du lien "policy"*/
 footer li:nth-child(5){
         border-style: none;
 }
+
+/*positionnement du "copyright"*/
 footer p{
         position: absolute;
         top: auto;

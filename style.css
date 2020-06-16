@@ -191,7 +191,7 @@ main{
 }
 
 /*mise en couleur du "start building"*/
-.section6 li a:nth-child(3){
+.section6 li:nth-child(3) a{
         background-color: #e69109;
 }
 

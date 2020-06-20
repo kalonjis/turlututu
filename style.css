@@ -34,9 +34,9 @@ header li a{
 
 /*positionnement du Log In*/
 .Login {
-                font-size: 15px;
-                position: absolute;
-                right: 150px;
+        font-size: 15px;
+        position: absolute;
+        right: 150px;
 }
 
 /*mise en forme du lien Log In*/
@@ -101,7 +101,15 @@ main{
         flex-flow: row wrap;
         padding: 0 150px;
         justify-content: center;
+        position: relative;
 }
+
+/*positionnemet logo smiley section 3*/
+.section3 img{
+        position: absolute;
+        padding-left: 92%;
+        padding-top: 230px;
+} 
 
 /*structure des textes*/
 .divsec3 {
@@ -200,13 +208,14 @@ footer{
         height: 46px;
         color: white;
         background-color: black;
+        
         position: relative;
 }
 
 /*structure de la barre de menu*/
 footer ul{
-        position: absolute;
-        
+       width: fit-content; 
+       padding-top: 15px;
 }
 
 /*structure des onglets*/            
@@ -232,8 +241,8 @@ footer li:nth-child(5){
 /*positionnement du "copyright"*/
 footer p{
         position: absolute;
-        top: auto;
+        top: 0;
         right: 100px;
         font-size: 15px;
-
 }
+

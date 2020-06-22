@@ -28,7 +28,7 @@ header li {
 
 header li a {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
 }
 
 /*structure générale du menu*/
@@ -101,7 +101,7 @@ main {
 /*stucture générale de la section 3*/
 .section3 {
   background-color: #1687ED;
-  color: #ffffff;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,7 +247,7 @@ footer li {
 
 footer li a {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
 }
 
 footer li:nth-child(5) {

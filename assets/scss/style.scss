@@ -4,6 +4,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*structure générale du header- barre de menu*/
+
+$text-color: white;
+$link-decoration: none;
+
 header{ 
     height: 46px;
     display: flex;
@@ -17,9 +21,9 @@ header{
             font-size: 15px;
             /*mise en forme des liens du menu*/
             a{
-                text-decoration: none;
-                color:#ffffff;
-             }
+                text-decoration: $link-decoration;
+                color:$text-color;
+            }
         }
 } 
 
@@ -36,8 +40,8 @@ nav {
     right: 150px;
         /*mise en forme du lien Log In*/
         a{
-            text-decoration: none;
-            color: white;
+            text-decoration: $link-decoration;
+            color: $text-color;
         }
 }
 
@@ -53,7 +57,7 @@ main{
 /*structure générale de la section 1*/
 .section1{
     background-color: #1687ED;
-    color: white;
+    color: $text-color;
     position: relative;
     height: 300px;  
     /*positionnement du logo turlututu*/
@@ -70,7 +74,7 @@ main{
         border: 2px solid white;
         border-radius: 10px;
         padding: 20px;
-        color: white;
+        color: $text-color;
         font-size: 20px;
         margin: 20px;
     }
@@ -91,7 +95,7 @@ main{
 /*stucture générale de la section 3*/
 .section3{
     background-color: #1687ED;
-    color: #ffffff;
+    color: $text-color;
     display: flex;
     flex-flow: row wrap;
     padding: 0 150px;
@@ -117,7 +121,7 @@ main{
     /*mise en forme des paragraphes*/
     p {
         margin-top: 10px;
-        color: white;
+        color: $text-color;
     }
 }
 /*structure section 4 "Innovative..."*/
@@ -180,7 +184,7 @@ main{
         /*structure des liens*/
         a{
             background-color: rgb(39, 39, 167);
-            color: white;
+            color: $text-color;
             text-decoration: none;
         }
     }
@@ -188,7 +192,7 @@ main{
 /*structure générale du pied de page- footer*/
 footer{ 
     height: 46px;
-    color: white;
+    color: $text-color;
     background-color: black;
     
     position: relative;
@@ -205,8 +209,8 @@ footer{
         border-right: 1px dotted white;
         /*structure des liens*/
         a{
-            text-decoration: none;
-            color:#ffffff;
+            text-decoration: $link-decoration;
+            color:$text-color;
         }
         /*suppression bordures du lien "policy"*/
         &:nth-child(5){
@@ -221,14 +225,3 @@ footer{
         font-size: 15px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
